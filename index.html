@@ -1,7 +1,74 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+  <head>
+    <title>Will Kyle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/jquery-aniview/dist/jquery.aniview.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,400;0,600;1,400&family=Quattrocento:wght@400;700&display=swap" rel="stylesheet">    <link rel="stylesheet" href="style.css" />
+    <script src="meta.js"></script>
+  </head>
+
+  <body id="bootstrap-overrides">
+    <nav class="navbar navbar-light fixed-top navbar-expand-sm" role="navigation">
+      <a class="navbar-brand" href="#"><img class="img-fluid" src="img/WK.png" alt="WK"></a>
+      <button type="button" name="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="block" id="home">
+      <div class="landing-text animate__animated animate__slideInUp animate__fadeInUp" style="z-index: 1">
+        <h1>Will Kyle</h1>
+        <h3>Web Developer - User Experience Designer</h3>
+        <a href="#projects" class="btn btn-primary btn-lg" role="button">View my projects</a>
+      </div>
+    </div>
+
+
+    <div class="block" id="projects">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4 text-center">
+            <h2>Odomo</h2>
+            <p class="text-justify lead">Odomo is a web app that helps social movements strategize, mobilize and connect. The site will  provide secure messaging; a central hub for events and fundraising campaigns; and a consensus-based method of deliberation that prioritizes the leadership of BIPOC.</p>
+          </div>
+          <div class="col-sm-8">
+            <img class="img-fluid" src="img/macbook.png" alt="Desktop view of Odomo">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="block container-fluid text-center" id="contact">
+      <div class="container">
+        <h1>Contact</h1>
+        <label for="Email">Email me:</label><br>
+        <input type="text" id="Email" name="Email" value="williamofnewe@gmail.com" onclick="this.focus();this.select();myFunction()"" readonly="readonly">
+        <button type="button" class="fa fa-copy" onclick="myFunction()"></button>
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target=”_blank”><img src="img/gmail.png" alt="Gmail"></a>
+        <a href="https://outlook.live.com/mail/0/inbox" target=”_blank”><img src="img/outlook.png" alt="Outlook"></a><br>
+        <a href="https://www.linkedin.com/in/will-kyle-656aa6156/" target=”_blank” class="fa fa-linkedin social"></a>
+        <a href="https://github.com/WillCKyle" target=”_blank” class="fa fa-github social"></a>
+        </div>
+      </div>
+    </footer>
+
+  </body>
 </html>
