@@ -1,15 +1,32 @@
 html, body {
   height: 100%;
   width: 100%;
-  font-family: 'Quattrocento', serif;
+  font-family: 'IBM Plex Mono', monospace;
   scroll-behavior: smooth;
 }
 
 .navbar {
   padding: 1% 0;
   font-size: 1.2em;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(6px)
+}
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+.navbar li a {
+  color: #d5d5d5;
+  padding: 0 30px;
+}
+.navbar .navbar-collapse {
+  line-height: 55px;
 }
 .navbar-brand {
   max-height: 2em;
@@ -19,11 +36,8 @@ html, body {
 .navbar-brand img {
   height: 2em;
 }
-.navbar-dark .navbar-nav li a {
-  color: #d5d5d5;
-}
-.navbar-dark .navbar-nav li a:hover, .navbar-dark .navbar-nav li a:active {
-  color: #fff;
+.navbar li a:hover {
+  color: #FFF;
 }
 .block {
   display: flex;
@@ -36,6 +50,8 @@ html, body {
   text-align: center;
   top: 0;
   left: 0;
+}
+#projects {
 }
 canvas {
   width: 100%;
@@ -51,4 +67,34 @@ canvas {
 footer a img {
   height: 2em;
   padding-left: 10px;
+}
+#contact {
+  background: linear-gradient(135deg, #627BFF, #A88FEC);
+  color: #fff;
+}
+#home {
+  background: linear-gradient(135deg, #5CC29D, #61CB5F);
+  color: #fff;
+}
+#home h1 {
+  font-size: 400%;
+}
+#home h3 {
+  font-size: 350%;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #fff;
+    margin: 1em auto;
+    padding: 0;
+  }
+#odomoBreak {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em auto;
+  padding: 0;
 }

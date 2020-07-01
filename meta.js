@@ -17,5 +17,5 @@ var options = {
     scrollPollInterval: 50
 }
 $(document).ready(function(){
-  $('.aniview').AniView(options);
-});
+      $('.aniview').AniView();
+  });
