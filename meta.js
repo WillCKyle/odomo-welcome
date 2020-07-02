@@ -12,10 +12,3 @@ function myFunction() {
   /* Alert the copied text */
   alert("Copied the text: " + copyText.value);
 }
-var options = {
-    animateThreshold: 100,
-    scrollPollInterval: 50
-}
-$(document).ready(function(){
-      $('.aniview').AniView();
-  });

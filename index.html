@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css" />
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -17,21 +18,30 @@
 
   </head>
 
-  <body id="bootstrap-overrides">
-    <nav class="navbar fixed-top" role="navigation">
-      <a class="navbar-brand" href="#"><img class="img-fluid" src="img/WK.png" alt="WK"></a>
-      <ul class="navbar-nav navbar-right mr-auto mt-2 mt-lg-0">
-        <li class="nav-item px-5">
-          <a class="nav-link" href="#projects">Projects</a>
-        </li>
-        <li class="nav-item px-5">
-          <a class="nav-link" href="#contact">Contact</a>
-        </li>
-      </ul>
-    </nav>
+<body id="bootstrap-overrides">
+  <nav class="navbar navbar-dark fixed-top navbar-expand-sm" role="navigation">
+    <a class="navbar-brand" href="#"><img class="img-fluid" src="img/WK.png" alt="WK"></a>
+      <!--<button type="button" name="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      -->
+      <!--<div class="collapse navbar-collapse" id="navbarToggler">-->
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      <!--</div>-->
+
+  </nav>
+
 
     <div class="block" id="home">
-      <div class="landing-text" style="z-index: 1">
+      <div class="landing-text" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" style="z-index: 1">
         <h1>Will Kyle</h1><hr/>
         <h3>Web Developer - User Experience Designer</h3>
       </div>
@@ -39,13 +49,13 @@
 
 
     <div class="block" id="projects">
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">
         <div class="row">
-          <div class="col-sm-4 text-center">
+          <div class="col-lg-4 text-center">
             <h2>Odomo</h2><hr id="odomoBreak"/>
             <p class="text-justify">Odomo is a web app that helps social movements strategize, mobilize and connect. The site will  provide encrypted messaging, a central hub for events and fundraising campaigns, and a consensus-building method of deliberation that prioritizes the leadership of BIPOC.</p>
           </div>
-          <div class="col-sm-8">
+          <div class="col-lg-8">
             <img class="img-fluid" src="img/Odomo.png" alt="Desktop view of Odomo">
           </div>
         </div>
@@ -53,11 +63,13 @@
     </div>
 
     <footer class="block container-fluid text-center" id="contact">
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" >
         <h1>Contact</h1><hr/>
         <label for="Email">Email me:</label><br>
-        <input type="text" id="Email" name="Email" value="williamofnewe@gmail.com" onclick="this.focus();this.select();myFunction()" readonly="readonly">
-        <button type="button" class="fa fa-copy" onclick="myFunction()"></button>
+        <div class="email-box">
+          <input type="text" id="Email" name="Email" value="williamofnewe@gmail.com" onclick="this.focus();this.select();myFunction()" readonly="readonly">
+          <button type="button" class="fa fa-copy" onclick="myFunction()"></button>
+        </div>
         <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target=”_blank”><img src="img/gmail.png" alt="Gmail"></a>
         <a href="https://outlook.live.com/mail/0/inbox" target=”_blank”><img src="img/outlook.png" alt="Outlook"></a><br>
         <a href="https://www.linkedin.com/in/will-kyle-656aa6156/" target=”_blank” class="fa fa-linkedin social"></a>

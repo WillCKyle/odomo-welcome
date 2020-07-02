@@ -12,18 +12,14 @@ html, body {
   backdrop-filter: blur(6px)
 }
 .navbar-nav {
-    float:none;
     margin:0 auto;
-    display: block;
 }
-
-.navbar-nav > li {
-    display: inline-block;
-    float:none;
-}
-.navbar li a {
+.navbar-dark .navbar-nav .nav-link {
   color: #d5d5d5;
   padding: 0 30px;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #FFF;
 }
 .navbar .navbar-collapse {
   line-height: 55px;
@@ -32,12 +28,10 @@ html, body {
   max-height: 2em;
   min-height: 1em;
   padding: 0 15px 5px;
+  position: fixed;
 }
 .navbar-brand img {
   height: 2em;
-}
-.navbar li a:hover {
-  color: #FFF;
 }
 .block {
   display: flex;
@@ -97,4 +91,18 @@ hr {
   border-top: 1px solid #ccc;
   margin: 1em auto;
   padding: 0;
+}
+
+}
+.email-box button {
+  padding: 0;
+  border: none;
+  background-color: #fff;
+}
+.email-box input {
+  padding: auto 0;
+  width: 250px;
+}
+.email-box {
+  display: inline-flex;
 }
