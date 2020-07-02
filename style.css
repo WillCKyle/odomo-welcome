@@ -70,6 +70,10 @@ footer a img {
   background: linear-gradient(135deg, #5CC29D, #61CB5F);
   color: #fff;
 }
+#projects {
+  background: linear-gradient(135deg, #DC9B3B, #CA4840);
+  color: #fff;
+}
 #home h1 {
   font-size: 400%;
 }
