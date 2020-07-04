@@ -20,7 +20,8 @@
   </head>
 
 <body id="bootstrap-overrides">
-  <nav class="navbar navbar-dark fixed-top navbar-expand-sm" role="navigation">
+
+  <nav class="navbar navbar-dark fixed-top navbar-expand-sm" role="navigation" id="navbar">
     <a class="navbar-brand" href="#"><img class="img-fluid" src="img/WK.png" alt="WK"></a>
       <!--<button type="button" name="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
         <span class="sr-only">Toggle navigation</span>
@@ -42,11 +43,21 @@
 
 
     <div class="block" id="home">
-      <div class="landing-text" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" style="z-index: 1">
+
+      <div class="landing-text col-md-6" data-aos="fade-up" data-aos-duration="1000">
         <h1>Will Kyle</h1><hr/>
-        <h3>Web Developer - User Experience Designer</h3>
+        <h1>Web Developer</h1>
+        <h1>User Experience Designer</h1><hr/>
+        <p>I build websites and apps that prioritize accessibility, responsivity and aesthetic expression<br/><br/>
+          I am passionate about tackling structural social issues through the lens of digital innovation</p>
       </div>
-    </div>
+
+      <div class="chauburji">
+        <img src="img/chauburjiTowerFC.png" alt="Chauburji tower"> </img>
+      </div>
+
+      </div>
+
 
 
     <div class="block" id="projects">
@@ -54,7 +65,7 @@
         <div class="row">
           <div class="col-lg-4 text-center">
             <h2>Odomo</h2><hr id="odomoBreak"/>
-            <p class="text-justify">Odomo is a web app that helps social movements strategize, mobilize and connect. The site will  provide encrypted messaging, a central hub for events and fundraising campaigns, and a consensus-building method of deliberation that prioritizes the leadership of BIPOC.</p>
+            <p class="text-left">Odomo is a web app that helps social movements strategize, mobilize and connect. The site will  provide encrypted messaging, a central hub for events and fundraising campaigns, and a consensus-building method of deliberation that prioritizes the leadership of BIPOC.</p>
           </div>
           <div class="col-lg-8">
             <img class="img-fluid" src="img/Odomo.png" alt="Desktop view of Odomo">
@@ -64,18 +75,25 @@
     </div>
 
     <footer class="block container-fluid text-center" id="contact">
-      <div class="container" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" >
-        <h1>Contact</h1><hr/>
-        <label for="Email">Email me:</label><br>
-        <div class="email-box">
-          <input type="text" id="Email" name="Email" value="williamofnewe@gmail.com" onclick="this.focus();this.select();myFunction()" readonly="readonly">
-          <button type="button" class="fa fa-copy" onclick="myFunction()"></button>
-        </div>
-        <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target=”_blank”><img src="img/gmail.png" alt="Gmail"></a>
-        <a href="https://outlook.live.com/mail/0/inbox" target=”_blank”><img src="img/outlook.png" alt="Outlook"></a><br>
-        <a href="https://www.linkedin.com/in/will-kyle-656aa6156/" target=”_blank” class="fa fa-linkedin social"></a>
-        <a href="https://github.com/WillCKyle" target=”_blank” class="fa fa-github social"></a>
-        </div>
+      <div class="container square" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" >
+        <div data-aos="fade-down" data-aos-offset="200" data-aos-duration="1000">
+
+        <h2>Contact</h2><hr/>
+
+          <p>Feel free to get in touch if you're interested in discussing opportunities, collaborating on projects, or if you would just like to chat</p><br>
+
+          <div class="email-box" >
+            <input type="text" class="textBox" name="Email" id="Email" value="williamofnewe@gmail.com" onclick="this.focus();this.select();myFunction()" readonly="readonly">
+            <div class="copyIcon" onclick="myFunction()"><img src="img/copyIcon.png"></img></div>
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target=”_blank” class="emailButton"><img src="img/gmail.png" alt="Gmail"></a>
+            <a href="https://outlook.live.com/mail/0/inbox" target=”_blank” class="emailButton"><img src="img/outlook.png" alt="Outlook"></a><hr/>
+          </div>
+
+        <hr class="social-break">
+        <a href="https://www.linkedin.com/in/will-kyle-656aa6156/" target=”_blank” class="social-link">LinkedIn</a>
+        <a href="https://github.com/WillCKyle" target=”_blank” class="social-link">GitHub</a>
+
+      </div>
       </div>
     </footer>
 
