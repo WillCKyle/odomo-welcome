@@ -17,7 +17,7 @@ html, body {
   margin: 0;
 }
 
-.navbar {
+nav {
   padding: 1% 0;
   transition: top 0.3s;
   font-size: 1.2em;
@@ -115,7 +115,8 @@ hr {
   padding: 0;
 }
 .social-break {
-    margin: 40px 0 30px;
+    margin: 40px 70px 10px;
+    width: 300px;
 }
 .email-box {
   display: grid;
@@ -133,6 +134,7 @@ hr {
   padding: 0.5rem;
   grid-row: 1;
   grid-column: 2;
+  cursor: pointer;
 }
 .textBox {
   border: 0;
@@ -154,7 +156,6 @@ hr {
   width: 500px;
   height: 450px;
   padding: 50px 30px;
-  justify-content: center;
   margin-bottom: 20px;
 }
 .social-link {
