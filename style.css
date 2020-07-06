@@ -4,6 +4,17 @@ html, body {
   font-family: 'IBM Plex Mono', monospace;
   scroll-behavior: smooth;
 }
+h1 {
+  font-size: 3vw;
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 4vw;
+  }
+  p {
+    font-size: small;
+  }
+}
 .chauburji img {
   height: 100vh;
   position: absolute;
@@ -19,6 +30,8 @@ html, body {
 
 nav {
   padding: 1% 0;
+  align-items: center;
+  justify-content: center;
   transition: top 0.3s;
   font-size: 1.2em;
   background-color: rgba(0, 0, 0, 0.5);
@@ -26,6 +39,8 @@ nav {
 }
 .navbar-nav {
     margin:0 auto;
+    align-items: center;
+    justify-content: center;
 }
 .navbar-dark .navbar-nav .nav-link {
   color: #d5d5d5;
@@ -60,8 +75,8 @@ nav {
   left: 0;
 }
 #navbarToggler {
-  align-items: flex-end;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: center;
 }
 canvas {
   width: 100%;
