@@ -1,16 +1,16 @@
 nav {
   padding: 1% 0;
   align-items: center;
-  justify-content: center;
   transition: top 0.3s;
   font-size: 1.2em;
   background-color: rgba(0, 0, 0, 0.5);
+  align-items: center;
+  justify-content: space-between;
   backdrop-filter: blur(6px)
 }
 .navbar-nav {
     margin:0 auto;
     align-items: center;
-    justify-content: center;
 }
 .navbar-dark .navbar-nav .nav-link {
   color: #d5d5d5;
@@ -21,18 +21,11 @@ nav {
     color: #FFF;
     opacity: 1;
 }
-.navbar .navbar-collapse {
-  line-height: 55px;
-}
-.navbar-brand {
+.wk {
   max-height: 2em;
   min-height: 1em;
   padding: 0 15px 5px;
 }
-.navbar-brand img {
+.wk img {
   height: 2em;
-}
-#navbarToggler {
-  align-items: center;
-  justify-content: center;
 }
