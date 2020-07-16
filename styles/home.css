@@ -1,0 +1,21 @@
+.chauburji img {
+  height: 100vh;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#home {
+  align-content: center;
+}
+.landing-text {
+  text-align: left;
+  margin-left: 10vw;
+}
+.landing-text p {
+  opacity: 0.7;
+}
+#home {
+  background: linear-gradient(150deg, #501F77, #191452);
+  color: #fff;
+  justify-content: left;
+}

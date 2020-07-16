@@ -1,0 +1,40 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'IBM Plex Mono', monospace;
+  scroll-behavior: smooth;
+}
+h1 {
+  font-size: 3vw;
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 4vw;
+  }
+  p {
+    font-size: small;
+  }
+}
+.row {
+  margin: 0;
+}
+.block {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  top: 0;
+  left: 0;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    margin: 1em auto;
+    padding: 0;
+  }
