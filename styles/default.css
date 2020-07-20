@@ -26,6 +26,18 @@ p {
   top: 0;
   left: 0;
 }
+.block-two {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  top: 0;
+  left: 0;
+}
 hr {
     display: block;
     height: 1px;
