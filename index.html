@@ -2,8 +2,8 @@
 <html>
   <head>
     <title>Will Kyle</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link rel="icon" href="img/favicon.png">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
@@ -21,16 +21,16 @@
 
 <body id="bootstrap-overrides">
 
-  <nav class="navbar navbar-dark fixed-top navbar-expand-md" role="navigation" id="navbar">
+  <nav class="fixed-top" role="navigation" id="navbar">
 
-        <ul class="navbar-nav text-right mr-auto mt-2 mt-lg-0">
+        <ul class="navigation-bar">
 
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
+          <li class="navigation-item">
+            <a class="navigation-link project-link" href="#projects">Projects</a>
           </li>
-          <a class="wk" href="#"><img class="img-fluid" src="img/WK.png" alt="WK"></a>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
+          <a href="#" class="wk"><img src="img/WK.png" alt="WK"></a>
+          <li class="navigation-item">
+            <a class="navigation-link contact-link" href="#contact">Contact</a>
           </li>
 
 
@@ -59,11 +59,13 @@
 
 
     <div class="block" id="projects">
+
       <div class="container" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">
+        
         <div class="row">
-          <div class="col-lg-4 text-center">
-            <img src="img/OdomoBlack.png" alt="Odomo" width="60%"></img><hr id="odomoBreak"/>
-            <p class="text-left">Odomo is a web app that helps social movements strategize, mobilize and connect. The site will  provide encrypted messaging, a central hub for events and fundraising campaigns, and a consensus-building method of deliberation that prioritizes the leadership of BIPOC.</p>
+          <div class="col-lg-4 text-center project-textbox">
+            <img src="img/odomoblacklong.png" alt="Odomo" width="60%" id="odomoBreak"></img>
+            <p class="text-left">Odomo is a web app that helps social movements strategize, mobilize and connect. The site will  provide encrypted messaging, a central hub for events and fundraising campaigns, and structured consensus-building.</p>
           </div>
           <div class="col-lg-8">
             <img class="img-fluid" src="img/Odomo.png" alt="Desktop view of Odomo">
@@ -72,14 +74,14 @@
       </div>
     </div>
 
-    <footer class="block container-fluid text-center" id="contact">
+    <footer class="block container-fluid" id="contact">
       <div class="container square" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" >
         <div data-aos="fade-down" data-aos-offset="200" data-aos-duration="1000">
 
         <h2>Contact</h2>
         <hr class="social-break">
 
-          <p>Feel free to get in touch if you're interested in discussing opportunities, collaborating on projects, or if you would just like to chat</p><br>
+          <p>Feel free to get in touch if you're interested in discussing opportunities, collaborating on projects, or just to chat</p><br>
 
           <div class="email-box" >
             <input type="text" class="textBox" name="Email" id="Email" value="williamofnewe@gmail.com" onclick="this.focus();this.select();myFunction()" readonly="readonly">

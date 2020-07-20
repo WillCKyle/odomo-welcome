@@ -2,18 +2,18 @@ footer img {
   height: 2em;
 }
 #contact {
-  background-image: url("img/fullpatterns.png");
+  background-image: url("../img/fullpatterns.png");
   color: #fff;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 #contact p {
-  padding: 20px 20px 0;
+  padding: 10px 20px 0;
+  text-align: left;
 }
 .social-break {
-    margin: 40px 70px 10px;
-    width: 300px;
+    margin: 40px auto 20px;
 }
 .email-box {
   display: grid;
@@ -41,7 +41,7 @@ footer img {
   outline:none;
 }
 .emailButton {
-  background: #353535;
+  background: #191452;
   border: 0;
   border-left: 1px solid #ccc;
   padding: 0.5rem;
@@ -64,4 +64,36 @@ footer img {
   text-decoration: none;
   color: #fff;
   opacity: 1;
+}
+@media screen and (max-width: 768px) {
+  .square {
+    background: linear-gradient(150deg, #501F77, #191452);
+    width: 90vw;
+    height: 90vh;
+    padding: 50px 30px;
+  }
+  .email-box {
+    width: 72vw;
+    grid-template-columns: 18vw 18vw 18vw 18vw;
+    grid-template-rows: 42px 42px;
+    height: auto;
+  }
+  input {
+      font-size: 2vh;
+  }
+  .emailButton {
+    grid-row: 2;
+    grid-column: span 2;
+  }
+  .copyIcon {
+    grid-row: 1;
+    grid-column: 4;
+  }
+  .textBox {
+    grid-column:1 / 4;
+    grid-row: 1;
+  }
+  footer img {
+      height: 1.5em;
+  }
 }

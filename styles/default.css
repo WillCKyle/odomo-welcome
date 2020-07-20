@@ -1,19 +1,15 @@
 html, body {
   height: 100%;
   width: 100%;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Raleway', sans-serif;
   scroll-behavior: smooth;
 }
-h1 {
-  font-size: 3vw;
+h1 h2 {
+  font-size: 6vh;
 }
-@media screen and (max-width: 768px) {
-  h1 {
-    font-size: 4vw;
-  }
-  p {
-    font-size: small;
-  }
+p {
+  font-size:2.6vh;
+  opacity: 0.8;
 }
 .row {
   margin: 0;
@@ -38,3 +34,14 @@ hr {
     margin: 1em auto;
     padding: 0;
   }
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.8vh;
+  }
+  h2 {
+    font-size: 3.5vh;
+  }
+  p {
+    font-size:2vh;
+  }
+}

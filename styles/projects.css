@@ -3,10 +3,19 @@
   color: #fff;
 }
 #odomoBreak {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
   margin: 1em auto;
-  padding: 0;
+}
+.project-textbox {
+  padding: 1em;
+}
+.project-textbox p {
+  padding: 0 1em;
+}
+.project-heading {
+  padding-bottom: 10vh;
+}
+@media screen and (max-width: 768px) {
+  .project-heading {
+    padding-bottom: 0;
+  }
 }
