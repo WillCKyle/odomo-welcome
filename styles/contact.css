@@ -2,7 +2,7 @@ footer img {
   height: 2em;
 }
 #contact {
-  background-image: url("../img/fullpatterns.png");
+  background-image: url("../img/fullpatternsLowres.png");
   color: #fff;
   background-position: center;
   background-repeat: no-repeat;
@@ -70,7 +70,7 @@ footer img {
   .square {
     background: linear-gradient(150deg, #501F77, #191452);
     width: 90vw;
-    height: 90vh;
+    height: 90%;
     padding: 50px 30px;
   }
   .email-box {
