@@ -8,7 +8,7 @@ h1 h2 {
   font-size: 6vh;
 }
 p {
-  font-size:2.6vh;
+  font-size: 3vh;
   opacity: 0.8;
 }
 .row {
@@ -36,12 +36,12 @@ hr {
   }
 @media screen and (max-width: 768px) {
   h1 {
-    font-size: 2.8vh;
+    font-size: 4vh;
   }
   h2 {
     font-size: 3.5vh;
   }
   p {
-    font-size:2vh;
+    font-size:2.5vh;
   }
 }

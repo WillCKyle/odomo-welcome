@@ -1,8 +1,10 @@
 footer img {
   height: 2em;
 }
+
 #contact {
   background-image: url("../img/fullpatternsLowres.png");
+  background-attachment: fixed;
   color: #fff;
   background-position: center;
   background-repeat: no-repeat;
@@ -13,7 +15,7 @@ footer img {
   text-align: left;
 }
 .social-break {
-    margin: 40px auto 20px;
+    margin: 6vh auto 3vh;
 }
 .email-box {
   display: grid;
@@ -59,6 +61,7 @@ footer img {
   padding: 0 25px;
   color: #fff;
   opacity: 0.7;
+  font-size: 1.2em;
 }
 .social-link:hover {
   text-decoration: none;
@@ -91,7 +94,7 @@ footer img {
     grid-column: 4;
   }
   .textBox {
-    grid-column:1 / 4;
+    grid-column:1 / 5;
     grid-row: 1;
   }
   footer img {
