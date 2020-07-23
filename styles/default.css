@@ -10,6 +10,7 @@ h1 h2 {
 p {
   font-size: 3vh;
   opacity: 0.8;
+  margin-bottom: 0;
 }
 .row {
   margin: 0;
@@ -35,11 +36,11 @@ hr {
     padding: 0;
   }
 @media screen and (max-width: 768px) {
-  h1 {
+  h1 h2 {
     font-size: 4vh;
   }
   h2 {
-    font-size: 3.5vh;
+    font-size: 4vh;
   }
   p {
     font-size:2.5vh;
