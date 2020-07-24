@@ -2,14 +2,10 @@
   background: linear-gradient(135deg, #DC9B3B, #CA4840);
   color: #fff;
 }
-#odomoBreak {
-  margin: 1em auto;
-}
-.project-textbox {
-  padding: 1em;
-}
+
+
 .project-textbox p {
-  padding: 0 1em;
+  padding: 7vh 1em;
 }
 .project-heading {
   padding-bottom: 10vh;
