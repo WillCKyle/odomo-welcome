@@ -2,13 +2,14 @@
   background: linear-gradient(135deg, #DC9B3B, #CA4840);
   color: #fff;
 }
-
-
 .project-textbox p {
-  padding: 7vh 1em;
+  padding: 8vh 1em;
 }
 .project-heading {
   padding-bottom: 10vh;
+}
+.odomo-image img {
+  padding-top: 2vh;
 }
 @media screen and (max-width: 768px) {
   .project-heading {
