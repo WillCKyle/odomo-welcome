@@ -12,7 +12,7 @@ footer {
 
 footer button {
   border: none;
-  padding: none;
+  padding: 0 1em;
   display: inline-block;
   text-decoration: none;
   background: transparent;
@@ -21,6 +21,7 @@ footer button {
   transition: opacity .25s ease-in-out;
   -moz-transition: opacity .25s ease-in-out;
   -webkit-transition: opacity .25s ease-in-out;
+
 }
 footer button:hover {
     text-decoration: none;
