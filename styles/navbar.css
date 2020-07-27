@@ -18,9 +18,12 @@ nav {
     align-items: center;
 }
 .navigation-link {
-  color: #d5d5d5;
-  opacity: 0.8;
+  color: #fff;
+  opacity: 0.6;
   padding: 0 40px;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
 }
 .navigation-link:hover {
     text-decoration: none;

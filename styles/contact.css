@@ -60,7 +60,7 @@
   grid-row: 1;
   outline:none;
 }
-footer img {
+#contact img {
   height: 2em;
 }
 .copyIcon {
@@ -89,7 +89,7 @@ footer img {
   opacity: 1;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 799px) {
   .square {
     background: linear-gradient(150deg, #501F77, #191452);
     width: 90vw;
@@ -118,7 +118,7 @@ footer img {
     grid-column:1 / 5;
     grid-row: 1;
   }
-  footer img {
+  #contact img {
       height: 1.5em;
   }
 }

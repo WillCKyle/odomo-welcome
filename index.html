@@ -3,10 +3,12 @@
   <head>
     <title>Will Kyle</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-    <link rel="icon" href="img/favicon.png">
     <link rel="canonical" href="https://willckyle.github.io/" />
+    <link rel="manifest" href="manifest.json">
 
+    <link rel="icon" href="img/favicon.png">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway&display=swap">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -16,11 +18,12 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="/main.js"></script>
+    <script src="/pwa.js"></script>
 
 
   </head>
 
-<body id="bootstrap-overrides">
+<body>
 
   <nav class="fixed-top" role="navigation" id="navbar">
 
@@ -51,13 +54,13 @@
       </div>
 
       <picture class="chauburji">
-        <source srcset="img/chauburjiTowerFC.png 1x" media="(min-width: 770px)">
-        <source srcset="img/chauburjiTowerFC.png 2x" media="(min-width: 1540px)">
-        <source srcset="img/chauburjiTowerFC.png 3x" media="(min-width: 2310px)">
+        <source srcset="img/chauburjiTowerFC.png 1x" media="(min-width: 800px)">
+        <source srcset="img/chauburjiTowerFC.png 2x" media="(min-width: 1600px)">
+        <source srcset="img/chauburjiTowerFC.png 3x" media="(min-width: 2400px)">
         <img src="img/chauburjiTowerThinFCT.png" alt="Chauburji tower"> </img>
       </picture>
 
-      </div>
+    </div>
 
 
 
@@ -77,7 +80,7 @@
       </div>
     </div>
 
-    <footer class="block container-fluid" id="contact">
+    <div class="block container-fluid" id="contact">
       <div class="container square" data-aos="fade-down" data-aos-offset="200" data-aos-duration="1000" >
 
         <div class="contact-box">
@@ -100,6 +103,10 @@
           <a href="https://github.com/WillCKyle" target=”_blank” class="social-link">GitHub</a>
 
       </div>
+    </div>
+
+    <footer class="fixed-bottom" id="footer">
+      <button class="add-button">+ Add to home screen</button>
     </footer>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

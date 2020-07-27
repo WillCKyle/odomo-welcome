@@ -1,0 +1,28 @@
+footer {
+  padding: 1% 0;
+  transition: bottom 0.25s;
+  font-size: 1.2em;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  backdrop-filter: blur(6px)
+}
+
+footer button {
+  border: none;
+  padding: none;
+  display: inline-block;
+  text-decoration: none;
+  background: transparent;
+  color: #fff;
+  opacity: 0.6;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+footer button:hover {
+    text-decoration: none;
+    opacity: 1;
+}

@@ -14,7 +14,7 @@
   margin: auto;
   vertical-align: middle;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 799px) {
   .project-heading {
     padding-bottom: 0;
   }
