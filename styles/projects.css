@@ -10,6 +10,9 @@
 }
 .odomo-image img {
   padding-top: 2vh;
+  display: block;
+  margin: auto;
+  vertical-align: middle;
 }
 @media screen and (max-width: 768px) {
   .project-heading {

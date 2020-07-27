@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link rel="icon" href="img/favicon.png">
+    <link rel="canonical" href="https://willckyle.github.io/" />
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/style.css" />
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script src="meta.js"></script>
+    <script src="/main.js"></script>
 
 
   </head>
@@ -50,9 +51,9 @@
       </div>
 
       <picture class="chauburji">
-        <source srcset="img/chauburjiTowerFC.png 1x" media="(min-width: 768px)">
-        <source srcset="img/chauburjiTowerFC.png 2x" media="(min-width: 1536px)">
-        <source srcset="img/chauburjiTowerFC.png 3x" media="(min-width: 2304px)">
+        <source srcset="img/chauburjiTowerFC.png 1x" media="(min-width: 770px)">
+        <source srcset="img/chauburjiTowerFC.png 2x" media="(min-width: 1540px)">
+        <source srcset="img/chauburjiTowerFC.png 3x" media="(min-width: 2310px)">
         <img src="img/chauburjiTowerThinFCT.png" alt="Chauburji tower"> </img>
       </picture>
 
@@ -65,11 +66,11 @@
       <div class="container" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">
 
         <div class="row">
-          <div class="col-lg-4 text-center project-textbox">
+          <div class="col-md-4 text-center project-textbox">
             <img src="img/odomoblacklong.png" alt="Odomo" width="60%" id="odomoBreak"></img>
             <p class="text-left">Odomo is a web app that helps social movements strategize, mobilize and connect. The site will  provide encrypted messaging, a central hub for events and fundraising campaigns, and structured consensus-building.</p>
           </div>
-          <div class="col-lg-8 odomo-image">
+          <div class="col-md-8 odomo-image">
             <img class="img-fluid" src="img/Odomo.png" alt="Desktop view of Odomo">
           </div>
         </div>
@@ -105,6 +106,13 @@
     <script>
       AOS.init();
     </script>
+    <script>
+      if (navigator.serviceWorker) {
+        navigator.serviceWorker.register('/sw.js')
+      }
+    </script>
+
+
 
   </body>
 </html>
