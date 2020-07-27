@@ -2,25 +2,25 @@ var APP_PREFIX = 'WillCKyle_'     // Identifier for this app (this needs to be c
 var VERSION = 'version_01'              // Version of the off-line cache (change this value everytime you want to update cache)
 var CACHE_NAME = APP_PREFIX + VERSION
 var URLS = [                            // Add URL you want to cache in this list.
-  '/WillCKyle.github.io/',                     // If you have separate JS/CSS files,
-  '/WillCKyle.github.io/index.html',
-  '/WillCKyle.github.io/main.js',
-  '/WillCKyle.github.io/style.css',
-  '/WillCKyle.github.io/styles/contact.css',
-  '/WillCKyle.github.io/styles/default.css',
-  '/WillCKyle.github.io/styles/home.css',
-  '/WillCKyle.github.io/styles/navbar.css',
-  '/WillCKyle.github.io/styles/projects.css',
-  '/WillCKyle.github.io/img/chauburjiTowerFC.png',
-  '/WillCKyle.github.io/img/chauburjiTowerThinFCT.png',
-  '/WillCKyle.github.io/img/copyIcon.png',
-  '/WillCKyle.github.io/img/favicon.png',
-  '/WillCKyle.github.io/img/fullpatternsLowres.png',
-  '/WillCKyle.github.io/img/gmail.png',
-  '/WillCKyle.github.io/img/Odomo.png',
-  '/WillCKyle.github.io/img/odomoblacklong.png',
-  '/WillCKyle.github.io/img/outlook.png',
-  '/WillCKyle.github.io/img/WK.png',            // add path to those files here
+  '/',                     // If you have separate JS/CSS files,
+  '/index.html',
+  '/main.js',
+  '/style.css',
+  '/styles/contact.css',
+  '/styles/default.css',
+  '/styles/home.css',
+  '/styles/navbar.css',
+  '/styles/projects.css',
+  '/img/chauburjiTowerFC.png',
+  '/img/chauburjiTowerThinFCT.png',
+  '/img/copyIcon.png',
+  '/img/favicon.png',
+  '/img/fullpatternsLowres.png',
+  '/img/gmail.png',
+  '/img/Odomo.png',
+  '/img/odomoblacklong.png',
+  '/img/outlook.png',
+  '/img/WK.png',            // add path to those files here
 ]
 
 // Respond with cached resources
