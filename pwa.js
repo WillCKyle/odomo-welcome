@@ -43,6 +43,7 @@ const isInStandaloneMode = () => ('standalone' in window.navigator) && (window.n
 
 // Checks if should display install popup notification:
 if (isIos() && !isInStandaloneMode()) {
-  addMsg.style.display = 'inline-block';
   footer.style.display = 'block';
+  footer.style.height = '5em';
+  addMsg.style.display = 'inline-block';
 }
