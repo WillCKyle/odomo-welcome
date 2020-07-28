@@ -3,8 +3,8 @@ const addBtn = document.querySelector('.add-button');
 const footer = document.querySelector('.footer');
 const addMsg = document.querySelector('.add-message');
 addBtn.style.display = 'none'
-footer.style.display = 'none'
-addMsg.style.display = 'none'
+//footer.style.display = 'none'
+//addMsg.style.display = 'none'
 
 window.addEventListener('beforeinstallprompt', (e) => {
   // Prevent Chrome 67 and earlier from automatically showing the prompt

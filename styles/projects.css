@@ -2,20 +2,60 @@
   background: #1E1F25;
   color: #fff;
 }
+.container-custom {
+  margin: 0 10vw;
+}
 .project-textbox p {
   padding: 8vh 1em;
 }
 .project-heading {
   padding-bottom: 10vh;
 }
-.odomo-image img {
+.odomo-img {
+  max-width: 100%;
+  height: auto;
   padding-top: 2vh;
-  display: block;
   margin: auto;
   vertical-align: middle;
 }
 @media screen and (max-width: 799px) {
   .project-heading {
     padding-bottom: 0;
+  }
+}
+@media screen and (min-width: 560px) {
+  .container-custom {
+    margin: 0 20vw;
+  }
+@media screen and (min-width: 800px) {
+  .container-custom {
+    margin: 0 30vw;
+  }
+  .container-custom p {
+    font-size: 2.5vh;
+    padding: 5vh 1em;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .container-custom {
+    margin: 0 10vw;
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+  }
+  .project-textbox {
+    grid-column: 1 / 2;
+  }
+  .odomo-image {
+    grid-column: 2;
+    align-items: center;
+    align-content: center;
+  }
+  .odomo-img {
+    padding: auto;
+    align-self: center;
+    align-content: center;
+  }
+  .container-custom p {
+    font-size: 3vh;
   }
 }
