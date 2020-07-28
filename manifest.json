@@ -1,7 +1,7 @@
 {
   "background_color": "#191452",
   "description": "Will Kyle's Web Development and UX Design Portfolio.",
-  "display": "fullscreen",
+  "display": "standalone",
   "icons": [
     {
       "src": "/img/favicon192.png",
