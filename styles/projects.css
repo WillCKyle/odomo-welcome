@@ -7,6 +7,7 @@
 }
 .project-textbox p {
   padding: 5vh 1em;
+  text-align: center;
 }
 .project-heading {
   padding-bottom: 10vh;
@@ -44,6 +45,9 @@
   }
   .project-textbox {
     grid-column: 1 / 2;
+  }
+  .project-textbox p {
+    text-align: left;
   }
   .odomo-image {
     grid-column: 2;
