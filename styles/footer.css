@@ -1,30 +1,12 @@
 footer {
   height: 2.5em;
-  padding: 1% 0;
+  text-align: center;
+  padding: 0;
   transition: bottom 0.25s;
   font-size: 3vh;
   background-color: rgba(0, 0, 0, 0.7);
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin: 0;
-  backdrop-filter: blur(6px)
-}
-footer img {
-  height: 1em;
-  width: auto;
-  display: inline-block;
-  padding: 0 .5em;
-}
-footer p {
-  color: #fff;
-  opacity: 0.6;
-  font-size: 2vh;
-  padding: 1em 1em 3em;
-  align-self: auto;
-}
-.add-message {
-  display: flex;
+  backdrop-filter: blur(6px);
 }
 footer button {
   border: none;
@@ -43,3 +25,20 @@ footer button:hover {
     text-decoration: none;
     opacity: 1;
 }
+.pwa-icon {
+  height: 1.5em;
+  margin: .5em;
+  width: auto;
+}
+.close-generic {
+  top: .8em;
+  height: .9em;
+  width: auto;
+  position: absolute;
+  right: .8em;
+  opacity: 0.6;
+}
+@media screen and (max-width: 768px) {
+  footer {
+    font-size: 2.5vh;
+  }

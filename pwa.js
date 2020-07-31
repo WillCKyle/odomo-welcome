@@ -1,7 +1,7 @@
 let deferredPrompt;
 const addBtn = document.querySelector('.add-button');
 const footer = document.querySelector('.footer');
-const addMsg = document.querySelector('.add-message');
+const addMsg = document.querySelector('.ios-popup');
 addBtn.style.display = 'none'
 footer.style.display = 'none'
 addMsg.style.display = 'none'
@@ -43,7 +43,14 @@ const isInStandaloneMode = () => ('standalone' in window.navigator) && (window.n
 
 // Checks if should display install popup notification:
 if (isIos() && !isInStandaloneMode()) {
-  footer.style.display = 'block';
-  footer.style.height = '3.5em';
-  addMsg.style.display = 'inline-block';
+  addMsg.style.display = 'block';
 }
+
+//close button
+window.onload = function(){
+    document.getElementById('close').onclick = function(){
+        this.parentNode.parentNode
+        .removeChild(this.parentNode);
+        return false;
+    };
+};
