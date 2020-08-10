@@ -3,6 +3,7 @@ html, body {
   width: 100%;
   font-family: 'Raleway', sans-serif;
   scroll-behavior: smooth;
+  background-color: #501F77;
 }
 h1 h2 {
   font-size: 6vh;
