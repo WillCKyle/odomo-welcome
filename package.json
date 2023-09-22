@@ -1,0 +1,19 @@
+{
+  "name": "willckyle.github.io",
+  "version": "1.0.0",
+  "description": "Will Kyle's professional portfolio of Front End Development, UX and UI Design.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WillCKyle/WillCKyle.github.io.git#master"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WillCKyle/WillCKyle.github.io/issues"
+  },
+  "homepage": "https://github.com/WillCKyle/WillCKyle.github.io/tree/master#readme"
+}
