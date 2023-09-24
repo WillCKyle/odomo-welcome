@@ -21,7 +21,7 @@ var URLS = [                            // Add URL you want to cache in this lis
   '/img/odomoblacklong.png',
   '/img/outlook.png',
   '/img/WK.png',
-  'https://fonts.googleapis.com/css2?family=Raleway&display=swap',
+  'https://fonts.googleapis.com/css2?family=Montserrat&display=swap',
   'https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.cs',
   'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
   'https://unpkg.com/aos@next/dist/aos.css',
