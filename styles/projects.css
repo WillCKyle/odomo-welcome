@@ -1,6 +1,10 @@
 #projects {
   background: #110F3D;
   color: #fff;
+  position: relative;
+  background-size: cover;
+  top: 0;
+  left: 0;
 }
 @media only screen and (min-width: 768px) {
   .container-custom {
