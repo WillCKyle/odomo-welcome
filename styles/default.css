@@ -5,12 +5,17 @@ html, body {
   scroll-behavior: smooth;
   background-color: #501F77;
 }
-h1 h2 {
-  font-size: 6vh;
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 24px;
+  font-weight: 500;
 }
 p {
-  font-size: 3vh;
-  opacity: 0.8;
+  font-size: 16px;
+  font-weight: 400;
   margin-bottom: 0;
 }
 .row {
