@@ -1,65 +1,20 @@
 #projects {
-  background: #1E1F25;
+  background: #110F3D;
   color: #fff;
 }
-.container-custom {
-  margin: 0 10vw;
-}
-.project-textbox p {
-  padding: 5vh 1em;
-  text-align: center;
-}
-.project-heading {
-  padding-bottom: 10vh;
-}
-.odomo-img {
-  max-width: 100%;
-  height: auto;
-  padding-top: 2vh;
-  margin: auto;
-  vertical-align: middle;
-}
-@media screen and (max-width: 799px) {
-  .project-heading {
-    padding-bottom: 0;
-  }
-}
-@media screen and (min-width: 560px) {
+@media only screen and (min-width: 768px) {
   .container-custom {
-    margin: 0 20vw;
+    margin: 10vw;
+    border-radius: 16px;
+    background-color: #26235E;
+    display: flex;
   }
-@media screen and (min-width: 800px) {
-  .container-custom {
-    margin: 0 30vw;
-  }
-  .container-custom p {
-    font-size: 2.5vh;
-    padding: 5vh 1em;
-  }
-}
-@media screen and (min-width: 1000px) {
-  .container-custom {
-    margin: 0 10vw;
-    display: grid;
-    grid-template-columns: 5fr 7fr;
+  .project-image {
+    max-width: 66%;
+    height: auto;
+    border-radius: 16px;
   }
   .project-textbox {
-    grid-column: 1 / 2;
-  }
-  .project-textbox p {
-    text-align: left;
-  }
-  .odomo-image {
-    grid-column: 2;
-    align-items: center;
-    align-content: center;
-  }
-  .odomo-img {
-    padding: auto;
-    align-self: center;
-    align-content: center;
-  }
-  .container-custom p {
-    font-size: 3vh;
+    padding: 5vh;
   }
 }
