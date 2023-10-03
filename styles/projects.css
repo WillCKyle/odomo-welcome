@@ -8,7 +8,6 @@
 }
 @media only screen and (min-width: 768px) {
   .container-custom {
-    padding: 10vw;
     border-radius: 16px;
     background-color: #26235E;
     display: flex;
