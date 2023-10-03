@@ -6,7 +6,9 @@
   background-size: cover;
 }
 .square {
-  background: linear-gradient(150deg, #501F77, #191452);
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(6px);
+  border-radius: 16px;
   width: 500px;
   height: 70vh;
   padding: auto 30px;
