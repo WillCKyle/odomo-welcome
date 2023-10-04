@@ -15,15 +15,17 @@ a:hover {
 h1 {
   font-size: 48px;
   font-weight: 700;
+  margin-bottom: 16px;
 }
 h2 {
   font-size: 24px;
   font-weight: 500;
+  margin-bottom: 16px;
 }
 p {
   font-size: 16px;
   font-weight: 400;
-  margin-bottom: 0;
+  margin-bottom: 16px;
 }
 .row {
   margin: 0;
