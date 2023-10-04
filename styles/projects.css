@@ -26,6 +26,7 @@
 }
 
 .project-page {
-  img { border-radius: 16px };
+  img { border-radius: 16px; };
+  max-width: 100%;
   padding: 10vw;
 }
