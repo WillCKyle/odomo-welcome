@@ -29,8 +29,11 @@
   max-width: 100%;
   padding: 10vw;
   color: #ffffff;
+  background-color: #110F3D;
 }
 .project-page img { 
   border-radius: 16px; 
   margin-bottom: 5vh;
+  max-width: 100%;
+  max-height: auto;
 }
