@@ -8,7 +8,9 @@ html, body {
 a {
   color: inherit; /* blue colors for links too */
   text-decoration: inherit; /* no underline */
-  :hover { color: #ffffff; };
+}
+a:hover {
+  color: #ffffff;
 }
 h1 {
   font-size: 48px;
