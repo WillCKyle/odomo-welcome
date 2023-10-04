@@ -23,3 +23,8 @@
     padding: 5vw;
   }
 }
+
+.project-page {
+  img { border-radius: 16px };
+  padding: 10vw;
+}
