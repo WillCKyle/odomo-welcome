@@ -25,6 +25,15 @@
   }
 }
 
+@media only screen and (min-width: 768px) {
+  .container-custom {
+    display: block;
+  }
+  .project-image {
+    max-width: 100%;
+  }
+}
+
 .project-page {
   max-width: 100%;
   padding: 15vw;
