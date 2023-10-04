@@ -30,4 +30,7 @@
   padding: 10vw;
   color: #ffffff;
 }
-.project-page img { border-radius: 16px; }
+.project-page img { 
+  border-radius: 16px; 
+  margin-bottom: 5vh;
+}
