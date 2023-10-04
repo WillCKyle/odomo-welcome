@@ -13,19 +13,19 @@ a:hover {
   color: #ffffff;
 }
 h1 {
-  font-size: 48px;
+  font-size: 6vh;
   font-weight: 700;
-  margin-bottom: 32px;
+  margin-bottom: 4vh;
 }
 h2 {
-  font-size: 24px;
+  font-size: 3vh;
   font-weight: 500;
-  margin-bottom: 32px;
+  margin-bottom: 4vh;
 }
 p {
-  font-size: 16px;
+  font-size: 2vh;
   font-weight: 400;
-  margin-bottom: 32px;
+  margin-bottom: 4vh;
 }
 .row {
   margin: 0;
