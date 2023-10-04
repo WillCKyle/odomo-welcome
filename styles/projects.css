@@ -11,6 +11,8 @@
     border-radius: 16px;
     background-color: #26235E;
     display: flex;
+    margin: 10vw;
+    
   }
   .project-image {
     max-width: 66%;
@@ -18,6 +20,6 @@
     border-radius: 16px;
   }
   .project-textbox {
-    padding: 5vh;
+    padding: 5vw;
   }
 }
