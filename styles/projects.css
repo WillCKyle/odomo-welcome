@@ -27,7 +27,7 @@
 
 @media only screen and (max-width: 767px) {
   .container-custom {
-    display: block;
+    flex-direction: column;
   }
   .project-image {
     max-width: 100%;
