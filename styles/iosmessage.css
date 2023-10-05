@@ -6,8 +6,8 @@
   height: 40vh;
   width: 100%;
   border-radius: 3vh 3vh 0 0;
-  background-color: rgba(0, 0, 0, 0.7);
-  backdrop-filter: blur(6px)
+  background-color: rgba(17, 15, 61, 0.7);
+  backdrop-filter: blur(6px);
 }
 .add-message {
   color: #fff;
