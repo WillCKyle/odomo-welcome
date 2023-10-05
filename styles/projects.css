@@ -7,7 +7,7 @@
   left: 0;
   padding: 5vw;
 }
-@media only screen and (min-width: 768px) {
+
   .container-custom {
     border-radius: 16px;
     background-color: #26235E;
@@ -23,7 +23,7 @@
   .project-textbox {
     padding: 5vw;
   }
-}
+
 
 @media only screen and (max-width: 767px) {
   .container-custom {
