@@ -24,16 +24,6 @@
     padding: 5vw;
   }
 
-
-@media only screen and (max-width: 767px) {
-  .container-custom {
-    flex-direction: column;
-  }
-  .project-image {
-    max-width: 100%;
-  }
-}
-
 .project-page {
   max-width: 100%;
   padding: 15vw;
@@ -45,4 +35,18 @@
   margin: 10vh 0;
   max-width: 100%;
   max-height: auto;
+}
+@media only screen and (max-width: 767px) {
+  .container-custom {
+    flex-direction: column;
+  }
+  .project-image {
+    max-width: 100%;
+  }
+  .project-page {
+    padding: 10vh 10vw;
+  }
+  .project-page img { 
+    margin: 5vh 0;
+  }
 }
