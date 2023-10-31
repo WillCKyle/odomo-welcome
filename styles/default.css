@@ -17,14 +17,14 @@ h1 {
   font-weight: 800;
   margin-bottom: 4vh;
 }
-h3 {
+h2 {
   font-size: 4vh;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 4vh;
 }
-h2 {
-  font-size: 5vh;
-  font-weight: 600;
+h3 {
+  font-size: 3vh;
+  font-weight: 400;
   margin-bottom: 4vh;
 }
 p {
