@@ -9,8 +9,8 @@
   align-content: center;
   display: grid;
   grid-template-columns: 70% 30%;
-  background-color: #000427;
-  color: #fff;
+  background-color: #F2EAFF;
+  color: #000;
   justify-content: left;
 }
 .intro img {
