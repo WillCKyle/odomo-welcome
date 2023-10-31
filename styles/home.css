@@ -13,8 +13,8 @@
   color: #fff;
   justify-content: left;
 }
-.will {
-  border-radius: 300;
+.intro img {
+  border-radius: 50%;
   height: 164px;
   width: 164px;
 }
