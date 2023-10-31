@@ -1,6 +1,6 @@
 #projects {
-  background: #110F3D;
-  color: #fff;
+  background: #E8D8FF;
+  color: #000;
   position: relative;
   background-size: cover;
   top: 0;
@@ -10,10 +10,10 @@
 
   .container-custom {
     border-radius: 16px;
-    background-color: #110F3D;
+    background-color: #E8D8FF;
     display: flex;
     margin-bottom: 5vw;
-    box-shadow: 12px 12px 16px #000427, -12px -12px 16px #26235E;
+    box-shadow: 12px 12px 16px #D7CCE5, -12px -12px 16px #F2EAFF;
   }
   .project-image {
     max-width: 66%;
@@ -27,8 +27,8 @@
 .project-page {
   max-width: 100%;
   padding: 15vw;
-  color: #ffffff;
-  background-color: #000427;
+  color: #000;
+  background-color: #F2EAFF;
 }
 .project-page img { 
   border-radius: 16px; 
