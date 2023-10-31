@@ -10,10 +10,11 @@
 
   .container-custom {
     border-radius: 16px;
-    background-color: #26235E;
+    background-color: #110F3D;
     display: flex;
     margin-bottom: 5vw;
-    
+    filter: drop-shadow(12px 12px 16px #000427);
+    filter: drop-shadow(-12px -12px 16px #26235E);
   }
   .project-image {
     max-width: 66%;
