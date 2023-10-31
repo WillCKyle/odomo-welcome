@@ -8,7 +8,7 @@
 #home {
   align-content: center;
   display: grid;
-  grid-template-columns: 58% 42%;
+  grid-template-columns: 70% 30%;
   background-color: #000427;
   color: #fff;
   justify-content: left;
@@ -20,11 +20,11 @@
 }
 .intro {
   display: flex;
-  margin-right: 5vw;
+  gap: 5vw;
   margin-left: 10vw;
   grid-column: 1;
   z-index: 1;
-  margin-top: 5vw;
+  margin-top: 30vh;
 }
 .home-text {
   text-align: left;
