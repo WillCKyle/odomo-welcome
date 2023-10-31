@@ -4,6 +4,7 @@ html, body {
   font-family: 'Montserrat', sans-serif;
   scroll-behavior: smooth;
   background-color: #501F77;
+  letter-spacing: 0.05em;
 }
 a {
   color: inherit; /* blue colors for links too */
@@ -19,7 +20,7 @@ h1 {
 }
 h2 {
   font-size: 4vh;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 4vh;
 }
 h3 {
