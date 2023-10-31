@@ -6,7 +6,7 @@
   background-size: cover;
 }
 .square {
-  background-color: rgba(232, 216, 255, 0.8);
+  background-color: rgba(242, 234, 255, 0.8);
   backdrop-filter: blur(16px);
   border-radius: 16px;
   width: 500px;
@@ -73,7 +73,7 @@
 .emailButton {
   background: #DBC1FF;
   border: 0;
-  border-left: 1px solid rgba(255, 255, 255, 0.4);
+  border-left: 1px solid rgba(0, 0, 0, 0.4);
   padding: 0.5rem;
   border-radius: 0;
   grid-row: 1;
