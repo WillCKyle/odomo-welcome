@@ -1,12 +1,12 @@
 nav {
   padding: 1% 0;
   transition: top 0.3s;
-  background-color: rgba(17, 15, 61, 0.7);
+  background-color: rgba(232, 216, 255, 0.8);
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0;
-  backdrop-filter: blur(6px)
+  backdrop-filter: blur(16px)
 }
 
 .navigation-bar {
@@ -17,7 +17,7 @@ nav {
     align-items: center;
 }
 .navigation-link {
-  color: #fff;
+  color: #000;
   opacity: 0.6;
   padding: 0 40px;
   transition: opacity .25s ease-in-out;
@@ -26,7 +26,7 @@ nav {
 }
 .navigation-link:hover {
     text-decoration: none;
-    color: #FFF;
+    color: #000;
     opacity: 1;
 }
 .wk {
@@ -40,10 +40,10 @@ nav li {
   font-size: 3vh;
 }
 .project-link {
-  border-right: 1px solid rgba(255, 255, 255, 0.4);
+  border-right: 1px solid rgba(0, 0, 0, 0.4);
 }
 .contact-link {
-  border-left: 1px solid rgba(255, 255, 255, 0.4);
+  border-left: 1px solid rgba(0, 0, 0, 0.4);
 }
 @media screen and (max-width: 768px) {
   .navigation-link {
