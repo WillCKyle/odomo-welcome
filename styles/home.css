@@ -46,4 +46,7 @@
   .invisible-break {
     display: inline;
   }
+  .intro {
+    flex-direction: column;
+  }
 }
