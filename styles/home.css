@@ -13,6 +13,15 @@
   color: #fff;
   justify-content: left;
 }
+.will {
+  border-radius: 300;
+  height: 164px;
+  width: 164px;
+}
+.intro {
+  display: flex;
+  margin-right: 12vh;
+}
 .home-text {
   text-align: left;
   margin-left: 10vw;
