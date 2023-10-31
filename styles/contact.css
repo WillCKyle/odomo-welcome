@@ -1,13 +1,13 @@
 #contact {
   background-image: url("../img/fullpatternsLowres.png");
-  color: #fff;
+  color: #000;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .square {
-  background-color: rgba(0, 4, 39, 0.8);
-  backdrop-filter: blur(6px);
+  background-color: rgba(232, 216, 255, 0.8);
+  backdrop-filter: blur(16px);
   border-radius: 16px;
   width: 500px;
   height: 70vh;
