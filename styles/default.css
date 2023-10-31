@@ -11,7 +11,7 @@ a {
   text-decoration: inherit; /* no underline */
 }
 a:hover {
-  color: #ffffff;
+  color: #000;
 }
 h1 {
   font-size: 6vh;
