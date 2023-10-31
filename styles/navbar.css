@@ -35,7 +35,6 @@ nav {
 .wk img {
   height: 2.5em;
   width: 3.5em;
-  filter: invert(1);
 }
 nav li {
   font-size: 3vh;
