@@ -9,7 +9,7 @@
   align-content: center;
   display: grid;
   grid-template-columns: 58% 42%;
-  background: linear-gradient(150deg, #501F77, #191452);
+  background-color: #000427;
   color: #fff;
   justify-content: left;
 }
