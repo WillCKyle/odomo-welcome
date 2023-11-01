@@ -26,9 +26,18 @@
 
 .project-page {
   max-width: 100%;
-  padding: 15vw;
+  padding: 10vw;
   color: #000;
   background-color: #F2EAFF;
+}
+.project-page p {
+  padding: 0 5vw;
+}
+.project-page h1 {
+  padding: 0 5vw;
+}
+.project-page hr {
+  padding: 0 5vw;
 }
 .project-page img { 
   border-radius: 16px; 
