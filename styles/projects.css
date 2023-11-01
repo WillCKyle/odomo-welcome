@@ -12,7 +12,7 @@
     border-radius: 16px;
     background-color: #E8D8FF;
     display: flex;
-    margin-bottom: 5vw;
+    margin: 10vw 0;
     box-shadow: 12px 12px 16px #D7CCE5, -12px -12px 16px #F2EAFF;
   }
   .project-image {
