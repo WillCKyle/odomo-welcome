@@ -41,9 +41,15 @@
 }
 .project-page img { 
   border-radius: 16px; 
-  margin: 10vh 0;
   max-width: 100%;
   max-height: auto;
+}
+figure {
+    margin: 10vh 0;
+}
+figcaption {
+  opacity: 0.6;
+  text-align: center;
 }
 @media only screen and (max-width: 767px) {
   .container-custom {
