@@ -43,6 +43,7 @@
   border-radius: 16px; 
   max-width: 100%;
   max-height: auto;
+  margin-bottom: 2vh;
 }
 figure {
     margin: 10vh 0;
