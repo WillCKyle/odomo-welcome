@@ -39,8 +39,11 @@
 .project-page hr {
   padding: 0 10vw;
 }
+.project-page ul {
+  padding: 0 10vw;
+}
 .project-page li {
-  padding: 2vh 10vw;
+  padding: 2vh 0;
 }
 .project-page img { 
   border-radius: 16px; 
