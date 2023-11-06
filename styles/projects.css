@@ -39,6 +39,9 @@
 .project-page hr {
   padding: 0 10vw;
 }
+.project-page li {
+  padding: 2vh 10vw;
+}
 .project-page img { 
   border-radius: 16px; 
   max-width: 100%;
