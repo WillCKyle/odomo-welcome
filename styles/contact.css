@@ -7,6 +7,7 @@
 }
 .square {
   background-color: rgba(242, 234, 255, 0.8);
+  -webkit-backdrop-filter: blur(16px);
   backdrop-filter: blur(16px);
   border-radius: 16px;
   width: 500px;
