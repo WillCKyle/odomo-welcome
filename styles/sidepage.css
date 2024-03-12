@@ -41,6 +41,9 @@
   .intro-text-2 h1 {
     font-size: 3.5rem;
   }
+  .intro-text-2 {
+    margin-top: 50vh;
+  }
   .join-box-2 {
     width: 100%;
     padding: 5vw;

@@ -16,12 +16,12 @@ function myFunction() {
 var prevScrollpos = window.scrollY;
 window.onscroll = function() {
   var currentScrollPos = window.scrollY;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.opacity = "1";
-    document.getElementById("footer").style.bottom = "0";
-  } else {
+  if (currentScrollPos > prevScrollpos) {
     document.getElementById("navbar").style.opacity = "0";
     document.getElementById("footer").style.bottom = "-60px";
+  } else {
+    document.getElementById("navbar").style.opacity = "1";
+    document.getElementById("footer").style.bottom = "0";
   }
   prevScrollpos = currentScrollPos;
 }

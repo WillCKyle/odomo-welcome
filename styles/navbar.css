@@ -58,4 +58,7 @@ nav li {
     -webkit-backdrop-filter: blur(32px);
     backdrop-filter: blur(32px);
   }
+  nav li {
+    font-weight: 500;
+   }
 }
