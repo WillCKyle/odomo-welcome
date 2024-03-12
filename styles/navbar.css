@@ -1,61 +1,61 @@
 nav {
-  padding: 1% 0;
-  transition: top 0.3s;
-  background-color: rgba(232, 216, 255, 0.8);
+  opacity: 1;
+  transition: opacity .5s;
+  background-color: rgba(0, 0, 0, 0.2);
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0;
-  -webkit-backdrop-filter: blur(16px);
-  backdrop-filter: blur(16px)
+  margin: 1rem 5vw;
+  width: 90vw;
+  -webkit-backdrop-filter: blur(128px);
+  backdrop-filter: blur(128px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  z-index: 2;
 }
-
+.odomo-icon {
+  height: 1.5rem;
+}
 .navigation-bar {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
     align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.navigation-item {
+  width: 30%;
 }
 .navigation-link {
-  color: #000;
   opacity: 0.6;
-  padding: 0 40px;
+  padding: .6rem 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
   transition: opacity .25s ease-in-out;
   -moz-transition: opacity .25s ease-in-out;
   -webkit-transition: opacity .25s ease-in-out;
 }
 .navigation-link:hover {
     text-decoration: none;
-    color: #000;
     opacity: 1;
 }
-.wk {
-  padding: 5px 40px ;
-}
-.wk img {
-  height: 2.5em;
-  width: 3.5em;
-}
 nav li {
-  font-size: 3vh;
+  font-size: 1rem;
+  font-weight: 200;
+  letter-spacing: .1rem;
 }
-.project-link {
-  border-right: 1px solid rgba(0, 0, 0, 0.4);
+.learn-link {
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
 }
-.contact-link {
-  border-left: 1px solid rgba(0, 0, 0, 0.4);
+.join-link {
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
 }
 @media screen and (max-width: 768px) {
-  .navigation-link {
-    padding: 0 20px;
-    font-size: 2.5vh;
-  }
-  .wk {
-    padding: 5px 20px ;
-  }
-  .wk img {
-    height: 2em;
-    width: 2.8em;
+  nav {
+    -webkit-backdrop-filter: blur(32px);
+    backdrop-filter: blur(32px);
   }
 }

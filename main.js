@@ -13,15 +13,15 @@ function myFunction() {
   alert("Copied the text: " + copyText.value);
 }
 
-var prevScrollpos = window.pageYOffset;
+var prevScrollpos = window.scrollY;
 window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
+  var currentScrollPos = window.scrollY;
   if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
+    document.getElementById("navbar").style.opacity = "1";
     document.getElementById("footer").style.bottom = "0";
   } else {
-    document.getElementById("navbar").style.top = "-100px";
-    document.getElementById("footer").style.bottom = "-100px";
+    document.getElementById("navbar").style.opacity = "0";
+    document.getElementById("footer").style.bottom = "-60px";
   }
   prevScrollpos = currentScrollPos;
 }

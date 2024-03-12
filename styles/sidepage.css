@@ -1,0 +1,48 @@
+
+.curve-frame-2 {
+  width: 100vw;
+  position: absolute;
+  left:0;
+  top:0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.curve-frame-2 img {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.intro-text-2 {
+  margin-top: 60vh;
+  width: 50rem;
+}
+.intro-text-2 h1 {
+  font-size: 5rem;
+}
+.glass-2 {
+  -webkit-backdrop-filter: blur(128px);
+  backdrop-filter: blur(128px);
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 0;
+  z-index:0;
+  width: 100%;
+  height: 100%;
+}
+.join-box-2 {
+  width: 60%;
+}
+.join-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 849px) {
+  .intro-text-2 h1 {
+    font-size: 3.5rem;
+  }
+  .join-box-2 {
+    width: 100%;
+    padding: 5vw;
+  }
+}
