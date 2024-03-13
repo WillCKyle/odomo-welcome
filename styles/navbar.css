@@ -9,7 +9,7 @@ nav {
   width: 90vw;
   -webkit-backdrop-filter: blur(128px);
   backdrop-filter: blur(128px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 1rem;
   z-index: 2;
 }
@@ -48,10 +48,10 @@ nav li {
   letter-spacing: .1rem;
 }
 .learn-link {
-  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
 }
 .join-link {
-  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
 }
 @media screen and (max-width: 768px) {
   nav {
