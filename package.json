@@ -1,7 +1,7 @@
 {
-  "name": "willckyle.github.io",
+  "name": "odomo",
   "version": "1.0.0",
-  "description": "Will Kyle's professional portfolio of Front End Development, UX and UI Design.",
+  "description": "Connect with our communities. Revolutionize our world.",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
