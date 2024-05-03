@@ -131,7 +131,9 @@
 .timeline-column {
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+}
+.timeline-column p {
+  margin: 4rem 0;
 }
 .timeline-number {
   border-radius: 3rem;
@@ -194,6 +196,10 @@ hr {
   color: #000;
 }
 @media screen and (max-width: 849px) {
+  hr {
+    margin: 0 -2rem;
+    width: calc(100% + 4rem);
+  }
   #curve img {
     width: auto;
     height: 100vh;
@@ -236,8 +242,8 @@ hr {
     padding: 0 2rem 2rem;
     gap: 4rem;
   }
-  .timeline-column {
-    gap: 2rem;
+  .timeline-column p {
+    margin: 2rem 0;
   }
   .join-box {
     width: 80%;
