@@ -39,6 +39,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 70vh;
 }
 .intro-text {
   margin-left: 5vw;
@@ -60,11 +61,13 @@
   -webkit-backdrop-filter: blur(128px);
   backdrop-filter: blur(128px);
   border: 1px solid rgba(255, 255, 255, 0.3);
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.6);
   border-radius: 4rem;
   margin: 5vh 5vw;
-  height: 90%;
   width: 90%;
+}
+.glass:last-of-type {
+  margin-bottom: 8rem; /* ensure bottom spacing is visible under the fixed footer */
 }
 .curve-frame-2 {
   width: 100vw;
@@ -131,23 +134,27 @@
 .timeline-column {
   display: flex;
   flex-direction: column;
+  width: 33.33%; /* equal width for each column */
 }
 .timeline-column p {
-  margin: 4rem 0;
+  margin: 0; /* remove margin */
+}
+.timeline-content {
+  margin: 4rem 0; /* apply margin to wrapper div */
 }
 .timeline-number {
   border-radius: 3rem;
   width: 3rem;
   height: 3rem;
-  border: 1px solid white;
-  background-image: url("../img/pearlescent.png");
+  border: 1px solid rgba(255, 255, 255, 0.3); /* same white tone as hr */
+  background-color: #000; /* black background */
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 1;
 }
 .timeline-number p {
-  color: #000;  
+  color: #fff; /* white text */
 }
 .timeline img {
   width: 100%;
@@ -241,9 +248,14 @@ hr {
     flex-direction: column;
     padding: 0 2rem 2rem;
     gap: 4rem;
+    height: 100vh;
   }
   .timeline-column p {
-    margin: 2rem 0;
+    margin: 0; /* remove margin */
+    height: 100vh;
+  }
+  .timeline-content {
+    margin: 4rem 0; /* apply margin to wrapper div */
   }
   .join-box {
     width: 80%;

@@ -1,13 +1,14 @@
-
 .curve-frame-3 {
   width: 100vw;
   position: absolute;
   left:0;
-  top:0;
+  top: -100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   overflow: hidden;
+  -moz-transform: scale(-1, -1);
+  /* transform: scaleX(-1); */
 }
 .curve-frame-2 img {
   -webkit-transform: scaleX(-1);
