@@ -15,19 +15,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="/style.css" />
 
-    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> -->
-    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> -->
-    <!-- <script src="/main.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="/main.js"></script>
 
 
   </head>
 
 <body>
-  
+
   <div class="curve-frame-3">
     <picture id="curve">
       <source srcset="/img/fullcurve.png 1x" media="(min-width: 800px)">
@@ -37,6 +37,15 @@
       <source srcset="/img/fullcurve.png 1x" media="(min-width: 800px)">
       <img src="/img/fullcurve.png" style="filter: hue-rotate(180deg);" alt="Odomo"> </img>
     </picture>
+    <picture id="curve" >
+      <source srcset="/img/fullcurve.png 1x" media="(min-width: 800px)">
+      <img src="/img/fullcurve.png" style="filter: hue-rotate(180deg);" alt="Odomo"> </img>
+    </picture>
+    <picture id="curve" class="desktop" style="transform: scaleX(-1);">
+      <source srcset="/img/croppedcurvehalf.png 1x" media="(min-width: 800px)">
+      <img src="/img/croppedcurvehalf.png" style="filter: hue-rotate(180deg);" alt="Odomo"> </img>
+    </picture>
+
     <picture id="curve" class="mobile">
       <source srcset="/img/fullcurve.png 1x" media="(min-width: 800px)">
       <img src="/img/fullcurve.png" style="filter: hue-rotate(180deg);" alt="Odomo"> </img>
@@ -61,21 +70,21 @@
       <source srcset="/img/fullcurve.png 1x" media="(min-width: 800px)">
       <img src="/img/fullcurve.png" style="filter: hue-rotate(180deg);" alt="Odomo"> </img>
     </picture>
-    <picture id="curve" class="mobile">
-      <source srcset="/img/fullcurve.png 1x" media="(min-width: 800px)">
-      <img src="/img/fullcurve.png" style="filter: hue-rotate(180deg);" alt="Odomo"> </img>
-    </picture>
+    
+
+    
+
   </div>
   
     <div class="block" id="home" style="height:100vh;">
       
       <div class="intro-text desktop">
-        <h1 data-aos="fade" data-aos-easing="ease-in-out-cubic" data-aos-delay="2000" data-aos-duration="2000">
+        <h1 data-aos="fade" data-aos-easing="ease-in-out-cubic" data-aos-delay="500" data-aos-duration="2000">
           ODOMO
         </h1>
-        <h3 data-aos="fade" data-aos-easing="ease-in-out-cubic" data-aos-delay="2500" data-aos-duration="2000">
-          Build our communities.<br>
-          Revolutionize our world.
+        <h3 data-aos="fade" data-aos-easing="ease-in-out-cubic" data-aos-delay="1500" data-aos-duration="2000">
+          Build your brand with events.<br>
+          Engage customers in your community.
         </h3>
       </div>
       <div class="intro-text mobile" data-aos="fade" data-aos-easing="ease-in-out-cubic" data-aos-delay="2000" data-aos-duration="2000">
@@ -83,8 +92,8 @@
           ODOMO
         </h1>
         <h3>
-          Build our communities.<br>
-          Revolutionize our world.
+          Build your brand with events.<br>
+          Engage customers in your community.
         </h3>
       </div>
 
@@ -98,7 +107,7 @@
 
 
 
-    <div class="glass" data-aos="fade" data-aos-easing="ease-in-out-cubic" data-aos-duration="500" id="feature-1">
+    <div class="glass"  id="feature-1">
 
       <div class="overview-label">
         <h3>
@@ -106,65 +115,104 @@
         </h3>
       </div>
 
-      
+      <!-- data-aos="fade" data-aos-easing="ease-in-out-cubic" data-aos-duration="500" -->
       
       <div class="timeline">
 
-        <div class="timeline-column" data-aos="fade" data-aos-easing="ease-in-out-cubic" data-aos-duration="500">
-          <hr class="desktop"/>
+        <div class="timeline-column" >
+          <hr />
           <div class="timeline-number">
             <p>1</p>
           </div>
           
             <h6>
-              Find and buy tickets to upcoming events. 
+              Discover upcoming events and stay informed.
             </h6>
             <div class="phone-frame">
 
-              <video class="phone" controls playsinline loop muted autoplay name="Entry into the market" data-aos="fade" data-aos-easing="ease-in-out-cubic"  data-aos-duration="500">
+              <video class="phone" controls playsinline loop muted autoplay name="Entry into the market">
                 <source src="/img/1a.mov">
               </video>
 
  
           </div>
+
+          <h6>
+            Value
+          </h6>
+          <p>
+            A streamlined and improved event promotion and discovery experience.
+          </p>
+          <h6>
+            Revenue
+          </h6>
+          <p>
+            We collect fees from ticket sales and boosting events in the algorithm.
+          </p>
           
         </div>
 
-        <div class="timeline-column" data-aos="fade" data-aos-easing="ease-in-out-cubic" data-aos-duration="500">
-          <hr class="desktop"/>
+        <div class="timeline-column" >
+          <hr />
           <div class="timeline-number">
             <p>2</p>
           </div>
           
             <h6>
-              Explore the photos and merch from recent events.
+              Experience what’s been happening in your community and around the world.
             </h6>
             <div class="phone-frame">
 
-              <video class="phone" controls playsinline loop muted autoplay name="Viral growth" data-aos="fade" data-aos-easing="ease-in-out-cubic" data-aos-duration="500">
+              <video class="phone" controls playsinline loop muted autoplay name="Viral growth" >
                 <source src="/img/1b.mov">
               </video>
               
           </div>
+
+          <h6>
+            Value
+          </h6>
+          <p>
+            Users keep a pulse on their community and satisfy their FOMO. <br><br> Hosts improve their brand image and place ads in front of an interested market.
+          </p>
+          <h6>
+            Revenue
+          </h6>
+          <p>
+            We sell ad space with valuable click through rate (CTR).
+          </p>
           
         </div>
 
-        <div class="timeline-column" data-aos="fade" data-aos-easing="ease-in-out-cubic" data-aos-duration="500">
-          <hr class="desktop"/>
+        <div class="timeline-column" >
+          <hr />
           <div class="timeline-number">
             <p>3</p>
           </div>
         
             <h6>
-              Share a photo to see all the others from your event.
+              Share your photos from an event to see everyone elses.
             </h6>
             <div class="phone-frame">
 
-              <video class="phone" controls playsinline loop muted autoplay name="Viral growth" data-aos="fade" data-aos-easing="ease-in-out-cubic" data-aos-duration="500">
+              <video class="phone" controls playsinline loop muted autoplay name="Viral growth" >
                 <source src="/img/1b.mov">
               </video>
 
           </div>
+
+          <h6>
+            Value
+          </h6>
+          <p>
+            A new tit-for-tat incentive mechanism collects everyone’s photos from an event in one repository.
+          </p>
+          <h6>
+            Revenue
+          </h6>
+          <p>
+            Ads will have the highest CTR among attendees, who already have proven interest in the brand.
+          </p>
           
         </div>
 
@@ -172,76 +220,10 @@
     </div>
 
 
-      
-
-      <div class="glass" data-aos="fade" data-aos-easing="ease-in-out-cubic" data-aos-duration="500" id="feature-1">
-       
-        
-
-        <div class="overview-label">
-          <h3>
-            What it is
-          </h3>
-        </div>
-
-        
-        
-        <div class="timeline">
-
-          <div class="timeline-column" data-aos="fade" data-aos-easing="ease-in-out-cubic" data-aos-duration="500">
-            <hr class="desktop"/>
-            <div class="timeline-number">
-              <p>1</p>
-            </div>
-              <h6>
-                Odomo is a localized event promotion app. 
-              </h6>
-              <p>
-                You can see upcoming events and, uniquely, recent events from your local area and around the world. These recent event posts contain user-generated videos and photos alongside monetizable product listings.
-              </p>
-            </div>
-            
-          </div>
-
-          <div class="timeline-column" data-aos="fade" data-aos-easing="ease-in-out-cubic" data-aos-duration="500">
-            <hr class="desktop"/>
-            <div class="timeline-number">
-              <p>2</p>
-            </div>
-              <h6>
-                The unique value proposition is based on a new FOMO-based feature to collect the photos and videos taken at events. 
-              </h6>
-              <p>
-                After a few days of exclusivity, this repository of user-generated media from a recent event is published to the app feed. Everyone can open this recent event post to see people’s memories from the event and ads by the event host.
-              </p>
-            </div>
-            
-          </div>
-
-          <div class="timeline-column" data-aos="fade" data-aos-easing="ease-in-out-cubic" data-aos-duration="500">
-            <hr class="desktop"/>
-            <div class="timeline-number">
-              <p>3</p>
-            </div>
-              <h6>
-                Odomo generates tangible value for various community stakeholders. 
-              </h6>
-              <p>
-                Hosts can promote their events after they pass and gain a new audience for their products. Everyone else gets a first-person view what’s going on in the world around them, and they can find photos of themselves or great moments recorded by other people who attended the same event.
-              </p>
-            </div>
-            
-          </div>
-
-        </div>
-      </div>
 
 
 
-
-
-
-      <div class="glass" data-aos="fade" data-aos-easing="ease-in-out-cubic" data-aos-duration="500" id="feature-1">
+      <div class="glass"  id="feature-1">
       
         <div class="overview-label">
           <h3>
@@ -253,8 +235,8 @@
         
         <div class="timeline">
 
-          <div class="timeline-column" data-aos="fade" data-aos-easing="ease-in-out-cubic" data-aos-duration="500">
-            <hr class="desktop"/>
+          <div class="timeline-column"  >
+            <hr />
             <div class="timeline-number">
               <p>1</p>
             </div>
@@ -262,13 +244,12 @@
                 A scalable source of revenue.
               </h6>
               <p>
-                The primary sources of revenue from Odomo are platform fees for selling event tickets and ad spaces sold to the businesses hosting events. Once businesses are brought onto the platform, they generate passive revenue. The market size is large and operational costs remain low.              </p>
-            </div>
+                Once businesses are brought onto the platform, they generate passive revenue. <br/><br/> The market size is large and operational costs remain low.            
             
           </div>
 
-          <div class="timeline-column" data-aos="fade" data-aos-easing="ease-in-out-cubic" data-aos-duration="500">
-            <hr class="desktop"/>
+          <div class="timeline-column"   >
+            <hr />
             <div class="timeline-number">
               <p>2</p>
             </div>
@@ -276,13 +257,12 @@
                 A flexible business opportunity for chapters.
               </h6>
               <p>
-                Chapters will receive a unique invite link to give to businesses, and the chapter will receive ~80% of the revenue from that business. This allows chapters to approach their local businesses and political organizations with a win-win offer to provide immediate value and earn revenue. This also creates a decentralized marketing strategy for Odomo.              </p>
-            </div>
+                Chapters can approach local businesses and organizations with tangible value to offer. They onboard a business, then receive the majority of the revenue from it. <br><br>This gives Odomo a decentralized growth strategy.            
             
           </div>
 
-          <div class="timeline-column" data-aos="fade" data-aos-easing="ease-in-out-cubic" data-aos-duration="500">
-            <hr class="desktop"/>
+          <div class="timeline-column"   >
+            <hr />
             <div class="timeline-number">
               <p>3</p>
             </div>
@@ -290,8 +270,7 @@
                 A platform for dual-power construction.
               </h6>
               <p>
-                As Odomo gains popularity, the party can use it as a base for further party building. First, the party builds its authority by contributing to local economic development. Second, the platform will build and provide us access to a network of local stakeholders, allowing us to research and develop more initiatives to support our communities.              </p>
-            </div>
+                The party builds its authority by contributing to local economic development. <br><br>The platform will build a network of local stakeholders, opening further research and development opportunities to support our communities.            
             
           </div>
 
@@ -299,7 +278,7 @@
       </div>
 
   
-<div style="height: 5vh;"></div>
+<div style="height: 1vh;"></div>
    
 
 

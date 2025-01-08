@@ -7,6 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 #curve img {
   width: 100vw;
@@ -47,9 +48,10 @@
 }
 .intro-text {
   margin-left: 5vw;
-  margin-top: 55vh;
+  margin-top: 50vh;
   z-index: 1;
   width: 40rem;
+  filter: hue-rotate(180deg);
 }
 .intro-text h1, .intro-text h3, .intro-text h2 {
   background-image: url("../img/pearlescent.png");
@@ -67,9 +69,9 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 4rem;
-  margin: 10vh 5vw;
+  margin: 10vh 5vw 0;
   width: 90%;
-  padding-bottom: 10vh;
+  padding-bottom: 15vh;
 }
 .glass:last-of-type {
   margin-bottom: 8rem; /* ensure bottom spacing is visible under the fixed footer */
@@ -122,13 +124,19 @@
 }
 .overview-label {
   display: flex;
-  width: 100%;
   align-items: center;
   justify-content: center;
   padding: 10vh 10vw;
+  text-decoration: underline;
+  text-underline-offset: 2rem;
+  text-decoration-color: rgba(255, 255, 255, 0.3);
 }
 .overview-label p {
   margin: 0;
+}
+.overview-label h3 {
+  text-decoration-thickness: 1px;
+  
 }
 .timeline {
   display: flex;
@@ -143,9 +151,15 @@
   flex-direction: column;
   align-items: center; /* center content horizontally */
   width: 100%;
+  opacity: 0;
+  transition: opacity 500ms cubic-bezier(0.25, 0.1, 0.25, 1);
+  height: auto;
 }
 .timeline-column h6 {
   margin: 4rem 0; /* remove margin */
+}
+.timeline-column p {
+  margin: 0 25%; 
 }
 .timeline-content {
   margin: 4rem 0; /* apply margin to wrapper div */
@@ -156,7 +170,7 @@
   width: 3rem;
   height: 3rem;
   border: 1px solid rgba(255, 255, 255, 0.3); /* same white tone as hr */
-  background-color: #000; /* black background */
+  background-color: #000; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -211,6 +225,23 @@ hr {
   text-align: center; 
   color: #000;
 }
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
 @media screen and (max-width: 849px) {
   hr {
     margin: 0 -2rem;
@@ -247,7 +278,6 @@ hr {
     padding: 5vh 2vw;
   }
   .phone {
-    height: 90vh;
     border-radius: 3.6rem;
   }
   .glass {
@@ -256,14 +286,13 @@ hr {
    }
   .timeline {
     flex-direction: column;
-    padding: 0 2rem 2rem;
-    gap: 4rem;
-    height: 100vh;
   }
-  .timeline-column p {
-    margin: 0; /* remove margin */
-    height: 100vh;
-  }
+ .timeline-column {
+  padding: 0 2rem 2rem;
+ }
+ .timeline-column p {
+  margin: 0;
+ }
   .timeline-content {
     margin: 4rem 0; /* apply margin to wrapper div */
   }
